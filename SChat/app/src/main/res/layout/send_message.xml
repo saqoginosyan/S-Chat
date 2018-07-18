@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <me.himanshusoni.chatmessageview.ChatMessageView
+        android:id="@+id/chatMessageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/message_mergin"
+        android:layout_marginTop="@dimen/send_message_margin"
+        app:cmv_arrowGravity="center"
+        app:cmv_arrowPosition="right"
+        app:cmv_backgroundColor="@color/send_back_color"
+        app:cmv_backgroundColorPressed="@color/send_press_color"
+        app:cmv_contentPadding="@dimen/receive_padding"
+        app:cmv_cornerRadius="@dimen/corner_rad"
+        app:cmv_showArrow="true">
+
+        <TextView
+            android:id="@+id/send_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="@dimen/send_max_width"
+            android:minWidth="@dimen/send_min_width"
+            android:text="@string/send_txt" />
+
+        <TextView
+            android:id="@+id/send_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/send_text"
+            android:layout_alignRight="@+id/send_text"
+            android:layout_below="@id/send_text"
+            android:text="@string/time_txt"
+            android:textSize="@dimen/time_size" />
+
+    </me.himanshusoni.chatmessageview.ChatMessageView>
+
+</RelativeLayout>

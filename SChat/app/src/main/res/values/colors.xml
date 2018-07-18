@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background_color">#96d6ff</color>
+    <color name="background_color_dark">#6eb6e4</color>
+    <color name="status_color">#9bf185</color>
+    <color name="status_color_dark">#6fc758</color>
+    <color name="calls_color">#21ab15</color>
+    <color name="calls_color_dark">#137c09</color>
+    <color name="white">#ffffff</color>
+    <color name="title_name_color">#598099</color>
+    <color name="tab_icon_color">#3b5564</color>
+    <color name="tab_txt_color">#814e7084</color>
+    <color name="placeholder_color">#46b7e2ff</color>
+    <color name="hint_color">#3e598099</color>
+    <color name="receive_back_color">#8096d6ff</color>
+    <color name="send_back_color">#d4d2d2d2</color>
+    <color name="send_press_color">#d4939393</color>
+    <color name="mail_color">#beab03</color>
+    <color name="number_color">#239125</color>
+</resources>
